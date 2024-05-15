@@ -45,8 +45,8 @@ PlayerSettings:
   m_SplashScreenBackgroundPortrait: {fileID: 0}
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
-  defaultScreenWidth: 848
-  defaultScreenHeight: 480
+  defaultScreenWidth: 1024
+  defaultScreenHeight: 600
   defaultScreenWidthWeb: 840
   defaultScreenHeightWeb: 480
   m_StereoRenderingPath: 0
@@ -67,10 +67,10 @@ PlayerSettings:
   useOSAutorotation: 1
   use32BitDisplayBuffer: 1
   disableDepthAndStencilBuffers: 0
-  defaultIsFullScreen: 1
+  defaultIsFullScreen: 0
   defaultIsNativeResolution: 1
   runInBackground: 0
-  captureSingleScreen: 0
+  captureSingleScreen: 1
   muteOtherAudioSources: 0
   Prepare IOS For Recording: 0
   deferSystemGesturesMode: 0
@@ -126,7 +126,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 0
-  bundleVersion: 1.5.4_Mundo_1
+  bundleVersion: 0.1.01 beta
   preloadedAssets:
   - {fileID: 0}
   - {fileID: 0}
@@ -154,7 +154,7 @@ PlayerSettings:
   applicationIdentifier:
     Android: com.VicotuxGames.Coin_colector
   buildNumber:
-    Standalone: 1.5.4_Mundo_1
+    Standalone: 0.1.01 beta
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 19
   AndroidTargetSdkVersion: 0
@@ -245,7 +245,8 @@ PlayerSettings:
     height: 180
     banner: {fileID: 0}
   androidGamepadSupportLevel: 0
-  resolutionDialogBanner: {fileID: 0}
+  resolutionDialogBanner: {fileID: 2800000, guid: 1b7db38dbf6b91c929ed9060c1c9c399,
+    type: 3}
   m_BuildTargetIcons:
   - m_BuildTarget: 
     m_Icons:
@@ -258,6 +259,9 @@ PlayerSettings:
   m_BuildTargetGraphicsAPIs:
   - m_BuildTarget: AndroidPlayer
     m_APIs: 150000000b000000
+    m_Automatic: 0
+  - m_BuildTarget: WindowsStandaloneSupport
+    m_APIs: 12000000150000000200000011000000
     m_Automatic: 0
   m_BuildTargetVRSettings: []
   openGLRequireES31: 0
