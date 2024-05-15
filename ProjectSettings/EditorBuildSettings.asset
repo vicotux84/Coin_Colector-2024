@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Coin_colector/escena/MainMenu.unity
+    guid: ea22ed3cac8441742a6c31cc326d607d
+  - enabled: 1
+    path: Assets/Coin_colector/escena/1.unity
+    guid: b61528f0968122aad80582504ecb583b
+  - enabled: 1
+    path: Assets/Coin_colector/escena/2.unity
+    guid: d78f0b27701c50f6abdb01b6cdb1e727
+  - enabled: 1
+    path: Assets/Coin_colector/escena/3.unity
+    guid: bac8020240edeabfb8713e7bc7073664
+  - enabled: 0
+    path: Assets/Coin_colector/escena/4.unity
+    guid: 93cff9c7f7365b4ab9a1e24877b7c32c
+  - enabled: 0
+    path: Assets/Coin_colector/escena/5.unity
+    guid: c8c974e2d0e8f6e70a97eb29bacf16bc
+  - enabled: 0
+    path: Assets/Coin_colector/escena/6.unity
+    guid: 19d81dd278e13370fb56f6434ad12ff3

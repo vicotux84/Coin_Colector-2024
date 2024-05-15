@@ -1,0 +1,45 @@
+--------------------------------------------------------------------------------------------
+Assets utilizados en el tutorial "Bloques!"
+--------------------------------------------------------------------------------------------
+
+Publicado en el canal de Youtube: 
+Hagamos Videojuegos
+
+URL del tutorial: 
+https://www.youtube.com/playlist?list=PLREdURb87ks3iypIlK-4RyW3ek6gXwEf7
+
+URL de mi canal de Youtube: 
+http://www.youtube.com/juande
+
+--------------------------------------------------------------------------------------------
+
+Fonts:
+
+[Freeware]
+
+http://www.dafont.com/karate.font?text=karate
+
+Musics:
+
+[CC-BY 3.0 License] http://creativecommons.org/licenses/by/3.0/
+
+http://www.playonloop.com/2013-music-loops/dragon-story/
+http://www.playonloop.com/2014-music-loops/pinball-one/
+http://www.playonloop.com/2014-music-loops/pinball-two/
+
+Sounds:
+
+[Creative Commons 0 License] http://creativecommons.org/publicdomain/zero/1.0/
+
+pelota - http://www.freesound.org/people/soundatADM/sounds/324246/
+point - http://www.freesound.org/people/LittleRobotSoundFactory/sounds/270303/
+error - http://www.freesound.org/people/fins/sounds/171494/
+completado - http://www.freesound.org/people/themusicalnomad/sounds/253887/
+gameover - http://www.freesound.org/people/themusicalnomad/sounds/253886/
+
+Sprites:
+
+[Creative Commons 0 License] http://creativecommons.org/publicdomain/zero/1.0/
+
+Los hice yo mismo, así que podéis usarlos para lo que queráis.
+
