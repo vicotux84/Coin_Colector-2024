@@ -253,6 +253,11 @@ Prefab:
       propertyPath: m_Name
       value: Coin20 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 114235926134852722, guid: 22689765a1517e74babbc7045b7a9ad7,
+        type: 2}
+      propertyPath: game_Manager
+      value: 
+      objectReference: {fileID: 1736180166}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 22689765a1517e74babbc7045b7a9ad7, type: 2}
   m_IsPrefabParent: 0
@@ -390,6 +395,11 @@ Prefab:
       propertyPath: m_Name
       value: Coin50 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 114272630558102316, guid: 084e785fb00bf974a9198963df20b8e6,
+        type: 2}
+      propertyPath: game_Manager
+      value: 
+      objectReference: {fileID: 1736180166}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 084e785fb00bf974a9198963df20b8e6, type: 2}
   m_IsPrefabParent: 0
@@ -1350,6 +1360,11 @@ Prefab:
       propertyPath: m_Name
       value: Coin20 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 114235926134852722, guid: 22689765a1517e74babbc7045b7a9ad7,
+        type: 2}
+      propertyPath: game_Manager
+      value: 
+      objectReference: {fileID: 1736180166}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 22689765a1517e74babbc7045b7a9ad7, type: 2}
   m_IsPrefabParent: 0
@@ -1835,6 +1850,11 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 114235926134852722, guid: 22689765a1517e74babbc7045b7a9ad7,
+        type: 2}
+      propertyPath: game_Manager
+      value: 
+      objectReference: {fileID: 1736180166}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 22689765a1517e74babbc7045b7a9ad7, type: 2}
   m_IsPrefabParent: 0
@@ -2180,6 +2200,11 @@ Prefab:
       propertyPath: m_Name
       value: Coin10 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 114194897004810362, guid: e4063cd060b3dde4fbc6e0ce6c3d9976,
+        type: 2}
+      propertyPath: game_Manager
+      value: 
+      objectReference: {fileID: 1736180166}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e4063cd060b3dde4fbc6e0ce6c3d9976, type: 2}
   m_IsPrefabParent: 0
@@ -2233,6 +2258,7 @@ GameObject:
   - component: {fileID: 613434162}
   - component: {fileID: 613434161}
   - component: {fileID: 613434160}
+  - component: {fileID: 613434164}
   m_Layer: 0
   m_Name: Limites
   m_TagString: Enemy
@@ -2301,11 +2327,25 @@ Transform:
   m_GameObject: {fileID: 613434159}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -2.31, z: 0}
-  m_LocalScale: {x: 3.20923, y: 1, z: 2.5895648}
+  m_LocalScale: {x: 4, y: 1, z: 4}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &613434164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 613434159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa4c33cd9e4124a89329798a8f15da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameManager: {fileID: 0}
+  Tag_Player: Player
+  Posicion_inicial: {x: -7, y: 1, z: 1}
 --- !u!1 &629293379
 GameObject:
   m_ObjectHideFlags: 0
@@ -3079,18 +3119,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4688954465383074, guid: e4063cd060b3dde4fbc6e0ce6c3d9976, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4688954465383074, guid: e4063cd060b3dde4fbc6e0ce6c3d9976, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4688954465383074, guid: e4063cd060b3dde4fbc6e0ce6c3d9976, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 2
-      objectReference: {fileID: 0}
+    - target: {fileID: 114194897004810362, guid: e4063cd060b3dde4fbc6e0ce6c3d9976,
+        type: 2}
+      propertyPath: game_Manager
+      value: 
+      objectReference: {fileID: 1736180166}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e4063cd060b3dde4fbc6e0ce6c3d9976, type: 2}
   m_IsPrefabParent: 0
@@ -3196,6 +3229,11 @@ Prefab:
       propertyPath: m_Name
       value: Coin10 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 114194897004810362, guid: e4063cd060b3dde4fbc6e0ce6c3d9976,
+        type: 2}
+      propertyPath: game_Manager
+      value: 
+      objectReference: {fileID: 1736180166}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e4063cd060b3dde4fbc6e0ce6c3d9976, type: 2}
   m_IsPrefabParent: 0
@@ -3545,6 +3583,11 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 114272630558102316, guid: 084e785fb00bf974a9198963df20b8e6,
+        type: 2}
+      propertyPath: game_Manager
+      value: 
+      objectReference: {fileID: 1736180166}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 084e785fb00bf974a9198963df20b8e6, type: 2}
   m_IsPrefabParent: 0
@@ -3836,6 +3879,11 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 114235926134852722, guid: 22689765a1517e74babbc7045b7a9ad7,
+        type: 2}
+      propertyPath: game_Manager
+      value: 
+      objectReference: {fileID: 1736180166}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 22689765a1517e74babbc7045b7a9ad7, type: 2}
   m_IsPrefabParent: 0
@@ -4007,6 +4055,11 @@ Prefab:
       propertyPath: m_Name
       value: Coin50 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 114272630558102316, guid: 084e785fb00bf974a9198963df20b8e6,
+        type: 2}
+      propertyPath: game_Manager
+      value: 
+      objectReference: {fileID: 1736180166}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 084e785fb00bf974a9198963df20b8e6, type: 2}
   m_IsPrefabParent: 0
@@ -4187,6 +4240,11 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 114235926134852722, guid: 22689765a1517e74babbc7045b7a9ad7,
+        type: 2}
+      propertyPath: game_Manager
+      value: 
+      objectReference: {fileID: 1736180166}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 22689765a1517e74babbc7045b7a9ad7, type: 2}
   m_IsPrefabParent: 0
@@ -4462,6 +4520,11 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 114235926134852722, guid: 22689765a1517e74babbc7045b7a9ad7,
+        type: 2}
+      propertyPath: game_Manager
+      value: 
+      objectReference: {fileID: 1736180166}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 22689765a1517e74babbc7045b7a9ad7, type: 2}
   m_IsPrefabParent: 0
@@ -4967,7 +5030,7 @@ MonoBehaviour:
   Puntos_text: {fileID: 686980281}
   nivel_text: {fileID: 797389485}
   live_text: {fileID: 1958207932}
-  MaxScore: 275
+  MaxScore: 0
   _contador: 0
   Coin_Sound: {fileID: 8300000, guid: a094a681f6d6301c2b1c457e44a9bdd1, type: 3}
   Winer_Sound: {fileID: 8300000, guid: 78f378a21dd9e7edfbf027cf49fa10fa, type: 3}
@@ -5081,6 +5144,7 @@ GameObject:
   - component: {fileID: 1742611970}
   - component: {fileID: 1742611968}
   - component: {fileID: 1742611969}
+  - component: {fileID: 1742611973}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -5096,7 +5160,7 @@ Transform:
   m_GameObject: {fileID: 1742611966}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.6087499, y: 0.8, z: 0.124999784}
   m_Children: []
   m_Father: {fileID: 1948441832}
   m_RootOrder: 3
@@ -5184,6 +5248,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1742611966}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1742611973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1742611966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa4c33cd9e4124a89329798a8f15da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameManager: {fileID: 0}
+  Tag_Player: Player
+  Posicion_inicial: {x: -7, y: 1, z: 1}
 --- !u!1 &1886833362
 GameObject:
   m_ObjectHideFlags: 0

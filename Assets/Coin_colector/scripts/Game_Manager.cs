@@ -21,7 +21,7 @@ public class Game_Manager : MonoBehaviour
     public Text Puntos_text; 
     public Text nivel_text,live_text;
 	[Header ("Points")]
-    [SerializeField][Range (10, 500)]int MaxScore=10;
+    public int MaxScore=10;
     public int _contador=0;
     [Header ("Audioclips")]
 	public AudioClip Coin_Sound,Winer_Sound,Loose_Sound,Next_level_sound;

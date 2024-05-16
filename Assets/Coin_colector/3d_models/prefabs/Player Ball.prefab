@@ -110,7 +110,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  Posicion_inicial: {x: -7, y: 0.5, z: 0.6}
+  Horizontal: Horizontal
+  Vertical: Vertical
 --- !u!135 &135400804096046960
 SphereCollider:
   m_ObjectHideFlags: 1
